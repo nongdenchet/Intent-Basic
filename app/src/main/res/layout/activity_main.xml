@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openCamera"
+        android:text="Open Camera" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openVideo"
+        android:text="Open Video" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openPhone"
+        android:text="Open Phone" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="callPhone"
+        android:text="Call Phone" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="sendEmail"
+        android:text="Send Email" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openDetail"
+        android:text="Open Detail" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openEdit"
+        android:text="Open Edit" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openDatePicker"
+        android:text="Date Picker" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="openTimePicker"
+        android:text="Time Picker" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/ckHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Hello World"
+        android:theme="@style/CheckBox" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array"
+        android:prompt="@string/prompt"
+        android:spinnerMode="dropdown" />
+</LinearLayout>

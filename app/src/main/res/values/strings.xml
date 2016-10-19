@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="prompt">Click to choose</string>
+</resources>
