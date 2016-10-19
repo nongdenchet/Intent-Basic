@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("apidez.com.week3", appContext.getPackageName());
+        assertEquals("apidez.com.intent", appContext.getPackageName());
     }
 }
